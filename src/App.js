@@ -7,11 +7,21 @@ import keyAction from './actions/keyAction';
 class App extends Component {
 
 	componentDidMount() {
-		document.addEventListener("keydown", (event) => this.props.keyAction(event), false);
+		document.addEventListener("keydown", (event) => {
+			const keyArr = ['q', 'w', 'e', 'a', 's', 'd', 'z', 'x', 'c'];
+			if (keyArr.includes(event.key)) {
+				this.props.keyAction(event);
+			}
+		}, false);
 	}
 
 	componentWillUnmount() {
-		document.removeEventListener("keydown", (event) => this.props.keyAction(event), false);
+		document.removeEventListener("keydown", (event) => {
+			const keyArr = ['q', 'w', 'e', 'a', 's', 'd', 'z', 'x', 'c'];
+			if (keyArr.includes(event.key)) {
+				this.props.keyAction(event);
+			}
+		}, false);
 	}
 
 	render() {
