@@ -27,11 +27,12 @@ class App extends Component {
 
 	render() {
 
-		const { text, clickAction } = this.props;
+		const { clickAction } = this.props;
 
 		const animals = ['Cow', 'Rooster', 'Dog', 'Cat', 'Duck', 'Goat', 'Sheep', 'Pig', 'Owl']
 		const keyArr = ['q', 'w', 'e', 'a', 's', 'd', 'z', 'x', 'c'];
-		let displayText = keyArr[animals.indexOf(text)];
+		console.log(animals.indexOf(this.props.text))
+		let displayText = animals[keyArr.indexOf(this.props.text)];
 
 		let drumPadButtons = [
 			{ 
@@ -92,10 +93,9 @@ class App extends Component {
 							id={ drumPad.id }
 							onClick={(event) => {
 								const upperCaseId = event.target.id.toUpperCase();
-								const sound = document.getElementById(upperCaseId);
-								console.log(upperCaseId)
-								soundClick(sound);
-								clickAction(upperCaseId);
+								const element = document.getElementById(upperCaseId);
+								soundClick(element);
+								clickAction(event);
 							} }>{drumPad.audioId}
 							<audio className='clip' id={drumPad.audioId} src={drumPad.src} preload="auto"></audio>
 						</button>
