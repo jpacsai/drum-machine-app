@@ -3,7 +3,6 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import clickAction from './actions/clickAction';
 import keyAction from './actions/keyAction';
-import { soundClick } from './actions/soundClick';
 
 class App extends Component {
 
@@ -29,9 +28,8 @@ class App extends Component {
 
 		const { clickAction } = this.props;
 
-		const animals = ['Cow', 'Rooster', 'Dog', 'Cat', 'Duck', 'Goat', 'Sheep', 'Pig', 'Owl']
+		const animals = ['Cow', 'Rooster', 'Dog', 'Cat', 'Duck', 'Goat', 'Sheep', 'Pig', 'Owl'];
 		const keyArr = ['q', 'w', 'e', 'a', 's', 'd', 'z', 'x', 'c'];
-		console.log(animals.indexOf(this.props.text))
 		let displayText = animals[keyArr.indexOf(this.props.text)];
 
 		let drumPadButtons = [
@@ -92,9 +90,6 @@ class App extends Component {
 							className='drum-pad'
 							id={ drumPad.id }
 							onClick={(event) => {
-								const upperCaseId = event.target.id.toUpperCase();
-								const element = document.getElementById(upperCaseId);
-								soundClick(element);
 								clickAction(event);
 							} }>{drumPad.audioId}
 							<audio className='clip' id={drumPad.audioId} src={drumPad.src} preload="auto"></audio>
