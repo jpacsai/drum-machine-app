@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^1.2.0",
+    "homepage": "https://jpacsai.github.io/drum-machine-app/",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "homepage": "https://jpacsai.github.io/drum-machine-app/",
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0"
