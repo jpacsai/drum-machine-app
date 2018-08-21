@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./polka.png');
+  font-family: 'Nanum Pen Script', sans-serif;
+}
+
+#root {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,6 +22,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fff8f2;
+  width: 90vw;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 50px;
+  color: teal;
+  margin-bottom: 0;
 }
 
 #display {
@@ -18,14 +38,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .button-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 50vw;
+  width: 30vw;
   margin: 20px;
+  min-width: 270px;
+  min-height: 270px;
 }
 
 .drum-pad {
@@ -36,10 +59,16 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 10px;
+  min-width: 90px;
+  min-height: 90px;
+  background-color: #f0feff;
+  font-family: 'Nanum Pen Script', sans-serif;
+  font-size: 30px;
+  border-radius: 10px;
 }
 
 .drum-pad span {
-  margin: 10px;
+  margin-top: 1vw;
   pointer-events: none
 }
 
@@ -49,16 +78,21 @@ body {
 
 .drum-pad-image {
   height: 5vw;
+  min-width: 45px;
+  min-height: 45px;
+  object-fit: contain;
   max-width: 5vw;
-  pointer-events: none
+  pointer-events: none;
 }
 
 #display-text {
-  width: 15vw;
-  height: 5vw;
-  background-color: aquamarine;
   margin: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 40px;
+  
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+      font-size: 30px;
+  }
 }

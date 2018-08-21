@@ -141,3 +141,4 @@ export default connect(mapStateToProps, mapDispatchToProps)(App);
 // <a href='https://www.freepik.com/free-vector/pet-animals-set_719861.htm'>Designed by Freepik</a>
 // <a href='https://www.freepik.com/free-vector/mountains-animals-set_719886.htm'>Designed by Freepik</a>
 // <a href='https://www.freepik.com/free-vector/farm-animals-set_719885.htm'>Designed by Freepik</a>
+// <a href='https://www.freepik.com/free-vector/pattern-of-colored-dots_920282.htm'>Designed by Freepik</a>
