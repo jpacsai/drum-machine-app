@@ -1,6 +1,6 @@
-export default function clickAction(event) {
+export default function clickAction(key) {
     
-    const key = event.target.id;
+    console.log(key)
 
     return {
         type: 'CLICK',
