@@ -3,6 +3,8 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import clickAction from './actions/clickAction';
 import keyAction from './actions/keyAction';
+import { styleAction } from './actions/styleAction';
+import { styleRemoveAction } from './actions/styleRemoveAction';
 
 class App extends Component {
 
@@ -11,6 +13,8 @@ class App extends Component {
 			const keyArr = ['q', 'w', 'e', 'a', 's', 'd', 'z', 'x', 'c'];
 			if (keyArr.includes(event.key)) {
 				this.props.keyAction(event);
+				this.props.styleAction(event);
+				setTimeout(this.props.styleRemoveAction, 100)
 			}
 		}, false);
 	}
@@ -20,13 +24,15 @@ class App extends Component {
 			const keyArr = ['q', 'w', 'e', 'a', 's', 'd', 'z', 'x', 'c'];
 			if (keyArr.includes(event.key)) {
 				this.props.keyAction(event);
+				this.props.styleAction(event);
+				setTimeout(this.props.styleRemoveAction(event), 100);
 			}
 		}, false);
 	}
 
 	render() {
 
-		const { clickAction } = this.props;
+		const { styleId, clickAction } = this.props;
 
 		const animals = ['Cow', 'Rooster', 'Dog', 'Cat', 'Horse', 'Goat', 'Sheep', 'Pig', 'Owl'];
 		const keyArr = ['q', 'w', 'e', 'a', 's', 'd', 'z', 'x', 'c'];
@@ -105,7 +111,7 @@ class App extends Component {
 					{ drumPadButtons.map((drumPad) => (
 						<button
 							key={ drumPad.id }
-							className='drum-pad'
+							className={ styleId === drumPad.id ? 'drum-pad drum-pad-active' : 'drum-pad' }
 							id={ drumPad.id }
 							onClick={(event) => {
 								clickAction(event);
@@ -125,14 +131,17 @@ class App extends Component {
 
 function mapStateToProps(state) {
 	return {
-		text: state.clicked
+		text: state.clicked,
+		styleId: state.style
 	}
 }
 
 function mapDispatchToProps(dispatch) {
 	return bindActionCreators({
 		clickAction,
-		keyAction
+		keyAction,
+		styleAction,
+		styleRemoveAction
 	}, dispatch);
 }
 
