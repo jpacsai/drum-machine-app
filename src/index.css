@@ -25,12 +25,13 @@ body {
   background-color: #fff8f2;
   width: 90vw;
   max-width: 600px;
+  padding: 20px;
 }
 
 h1 {
   font-size: 50px;
   color: teal;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 #display {
@@ -87,9 +88,9 @@ h1 {
 }
 
 #display-text {
-  margin: 10px 20px 20px;
+  margin: 0 20px;
   font-size: 40px;
-  
+  height: 30px;
 }
 
 @media screen and (max-width: 450px) {
