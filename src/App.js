@@ -70,61 +70,107 @@ class App extends Component {
 							onClick={(event) => {
 								const sound = document.getElementById(event.target.id.toUpperCase());
 								const s = new Audio (sound.src);
-								console.log(s)
 								s.currentTime = 0;
 								s.play();
 								this.props.clickAction(event);
-								
 							} }>Q
-							<audio className='clip' id='Q' src='https://clyp.it/bgmvqalf?token=e9c60345c6f4b83bc64bd94d8835c9bf' preload="auto"></audio>
+							<audio className='clip' id='Q' src='https://res.cloudinary.com/jutzee/video/upload/v1534835087/cow.mp3' preload="auto"></audio>
 						</button>
 						<button
 							className='drum-pad'
 							id='w'
-							onClick={(event) => this.props.clickAction(event) }>W
-							<audio className='clip' id='W' src='https://clyp.it/zilsxnoe'></audio>
+							onClick={(event) => {
+								const sound = document.getElementById(event.target.id.toUpperCase());
+								const s = new Audio (sound.src);
+								s.currentTime = 0;
+								s.play();
+								this.props.clickAction(event);
+							} }>W
+							<audio className='clip' id='W' src='https://res.cloudinary.com/jutzee/video/upload/v1534836204/rooster.mp3'></audio>
 							</button>
 						<button
 							className='drum-pad'
 							id='e'
-							onClick={(event) => this.props.clickAction(event) }>E
-							<audio className='clip' id='E' src='https://clyp.it/jbf0m00h'></audio>
+							onClick={(event) => {
+								const sound = document.getElementById(event.target.id.toUpperCase());
+								const s = new Audio (sound.src);
+								s.currentTime = 0;
+								s.play();
+								this.props.clickAction(event);
+							} }>E
+							<audio className='clip' id='E' src='https://res.cloudinary.com/jutzee/video/upload/v1534836203/dog.mp3'></audio>
 						</button>
 						<button
 							className='drum-pad'
 							id='a'
-							onClick={(event) => this.props.clickAction(event) }>A
-							<audio className='clip' id='A' src='https://clyp.it/lb2wp1lr'></audio>
+							onClick={(event) => {
+								const sound = document.getElementById(event.target.id.toUpperCase());
+								const s = new Audio (sound.src);
+								s.currentTime = 0;
+								s.play();
+								this.props.clickAction(event);
+							} }>A
+							<audio className='clip' id='A' src='https://res.cloudinary.com/jutzee/video/upload/v1534836204/cat.mp3'></audio>
 						</button>
 						<button
 							className='drum-pad'
 							id='s'
-							onClick={(event) => this.props.clickAction(event) }>S
-							<audio className='clip' id='S' src='https://clyp.it/4yumiokm'></audio>
+							onClick={(event) => {
+								const sound = document.getElementById(event.target.id.toUpperCase());
+								const s = new Audio (sound.src);
+								s.currentTime = 0;
+								s.play();
+								this.props.clickAction(event);
+							} }>S
+							<audio className='clip' id='S' src='https://res.cloudinary.com/jutzee/video/upload/v1534836204/duck.mp3'></audio>
 						</button>
 						<button
 							className='drum-pad'
 							id='d'
-							onClick={(event) => this.props.clickAction(event) }>D
-							<audio className='clip' id='D' src='https://clyp.it/ksy4wrnw'></audio>
+							onClick={(event) => {
+								const sound = document.getElementById(event.target.id.toUpperCase());
+								const s = new Audio (sound.src);
+								s.currentTime = 0;
+								s.play();
+								this.props.clickAction(event);
+							} }>D
+							<audio className='clip' id='D' src='https://res.cloudinary.com/jutzee/video/upload/v1534836204/goat.mp3'></audio>
 						</button>
 						<button
 							className='drum-pad'
 							id='z'
-							onClick={(event) => this.props.clickAction(event) }>Z
-							<audio className='clip' id='Z' src='https://clyp.it/hxk50zv0'></audio>
+							onClick={(event) => {
+								const sound = document.getElementById(event.target.id.toUpperCase());
+								const s = new Audio (sound.src);
+								s.currentTime = 0;
+								s.play();
+								this.props.clickAction(event);
+							} }>Z
+							<audio className='clip' id='Z' src='https://res.cloudinary.com/jutzee/video/upload/v1534836204/sheep.mp3'></audio>
 						</button>
 						<button
 							className='drum-pad'
 							id='x'
-							onClick={(event) => this.props.clickAction(event) }>X
-							<audio className='clip' id='X' src='https://clyp.it/z1vofbc1'></audio>
+							onClick={(event) => {
+								const sound = document.getElementById(event.target.id.toUpperCase());
+								const s = new Audio (sound.src);
+								s.currentTime = 0;
+								s.play();
+								this.props.clickAction(event);
+							} }>X
+							<audio className='clip' id='X' src='https://res.cloudinary.com/jutzee/video/upload/v1534836204/pig.mp3'></audio>
 						</button>
 						<button
 							className='drum-pad'
 							id='c'
-							onClick={(event) => this.props.clickAction(event) }>C
-							<audio className='clip' id='C' src='https://clyp.it/dc4qgonn'></audio>
+							onClick={(event) => {
+								const sound = document.getElementById(event.target.id.toUpperCase());
+								const s = new Audio (sound.src);
+								s.currentTime = 0;
+								s.play();
+								this.props.clickAction(event);
+							} }>C
+							<audio className='clip' id='C' src='https://res.cloudinary.com/jutzee/video/upload/v1534836204/owl.mp3'></audio>
 						</button>
 					</div>
 					<div id='display-text'>{ displayText }</div>
