@@ -2,7 +2,7 @@
   "name": "drum-machine-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jpacsai.github.io/drum-machine-app/",
+  "homepage": "https://jpacsai.github.io/Drum-Machine-App/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.2",
