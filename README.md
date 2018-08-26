@@ -13,6 +13,7 @@
 * [How to use](#using-the-app)
 * [Compatibility](#browser-compatibility)
 * [Screenshots](#screenshots)
+* [Credits](#credits)
 
 ## Description
 A desktop drum machine app with similar functionality to this [codepen](https://codepen.io/freeCodeCamp/full/MJyNMd).
