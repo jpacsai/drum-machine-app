@@ -48,3 +48,6 @@ The site was tested on Google Chrome only
 
 ## Screenshots
 ![screenshot](https://github.com/jpacsai/drum-machine-app/blob/master/public/img/screenshot.JPG)
+
+## Credits
+- [Background](https://www.freepik.com/free-vector/pattern-of-colored-dots_920282.htm) and [pet-animal icons](https://www.freepik.com/free-vector/pet-animals-set_719861.htm), [mountain-animal icons](https://www.freepik.com/free-vector/mountains-animals-set_719886.htm), [farm-animal icons](https://www.freepik.com/free-vector/farm-animals-set_719885.htm) from FreePik
