@@ -2,14 +2,12 @@
 
 **This project is part of the [FreeCodeCamp](https://www.freecodecamp.org) Front End Libraries Certification**
 
-[user stories](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/)
-
 ## Table of Contents
 
 * [Project](#project)
+* [Live link](#live-link)
 * [Installation](#installation)
 * [Dependencies](#dependencies)
-* [Live link](#live-link)
 * [How to use](#using-the-app)
 * [Compatibility](#browser-compatibility)
 * [Screenshots](#screenshots)
@@ -17,6 +15,10 @@
 
 ## Description
 A desktop drum machine app with similar functionality to this [codepen](https://codepen.io/freeCodeCamp/full/MJyNMd).
+The task was to fulfill the [user stories](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/) to successfully complete the project.
+
+## Live link  
+Open the page directly from [here](https://jpacsai.github.io/drum-machine-app/)  
 
 ## Installation  
 The system expected to have the following dependencies installed
@@ -30,14 +32,11 @@ The system expected to have the following dependencies installed
 3. start the server with `npm start` or `yarn start`
 4. the aplication runs on http://localhost:3000
 
-## Service Worker  
+#### Service Worker  
 Service worker is being activated in the production version.
 
 **To get a production version either run yarn or npm**  
 `yarn build` / `npm run build`
-
-## Live link  
-Open the page directly from [here](https://jpacsai.github.io/drum-machine-app/)  
 
 ## Using the app  
 1. The app displays 3 rows of drum pads that correspond to the keys on the keyboard.
