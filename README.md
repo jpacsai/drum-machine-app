@@ -5,14 +5,18 @@
 A drum machine app with similar functionality to this [codepen](https://codepen.io/freeCodeCamp/full/MJyNMd).
 The task was to fulfill the [user stories](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/) to successfully complete the project.
 
+***
+
 <p align="center">
-  <img src="https://github.com/jpacsai/drum-machine-app/blob/master/public/img/screenshot.JPG" width="600"/>
+  <img src="https://github.com/jpacsai/drum-machine-app/blob/master/public/img/screenshot.JPG" width="600" alt="application screenshot"/>
 </p>
+
+***
 
 ## 📑 Table of Contents
 * [Live link](#live-link)
-* [Installation](#installation)
-* [How to use](#using-the-app)
+* [Getting started](#getting-started)
+* [How to use](#how-to-use)
 * [Licence](#licence)
 * [Credits](#credits)
 
@@ -46,7 +50,7 @@ Service worker is being activated in the production version.
 ### Browser compatibility  
 The site was tested on Google Chrome only
 
-## 🍴 Using the app  
+## 🍴 How to use  
 1. The app displays 3 rows of drum pads that correspond to the keys on the keyboard.
 2. The user can press drum pads using their keyboard or mouse, each triggers an audio clip.
 3. The name of the pressed key is displayed below the drum pad.
