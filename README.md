@@ -1,6 +1,6 @@
-# Drum Machine App  
+# Drum Machine App 🥁
 
-**This project is part of the [FreeCodeCamp](https://www.freecodecamp.org) Front End Libraries Certification**
+**This project is part of the [FreeCodeCamp](https://www.freecodecamp.org) Front End Libraries Certification section**
 
 A drum machine app with similar functionality to this [codepen](https://codepen.io/freeCodeCamp/full/MJyNMd).
 The task was to fulfill the [user stories](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/) to successfully complete the project.
@@ -14,11 +14,11 @@ The task was to fulfill the [user stories](https://learn.freecodecamp.org/front-
 ***
 
 ## 📑 Table of Contents
-* [Live link](#live-link)
-* [Getting started](#getting-started)
-* [How to use](#how-to-use)
-* [Licence](#licence)
-* [Credits](#credits)
+* [Live link](#-live-link)
+* [Getting started](#-getting-started)
+* [How to use](#-how-to-use)
+* [Licence](#-licence)
+* [Credits](#-credits)
 
 ## 🔗 Live link  
 Open the page directly from [here](https://jpacsai.github.io/drum-machine-app/)  
