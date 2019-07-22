@@ -40,63 +40,63 @@ class App extends Component {
 
 		let drumPadButtons = [
 			{ 
-				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534835087/cow.mp3',
+				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534835087/FCC-drum-machine%20app/cow%20sound.mp3',
 				id: 'q',
 				audioId: 'Q',
 				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/cow.png',
 				alt: 'cow'
 			},
 			{
-				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/rooster.mp3',
+				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/FCC-drum-machine%20app/rooster%20sound.mp3',
 				id: 'w',
 				audioId: 'W',
 				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/rooster.png',
 				alt: 'rooster'
 			},
 			{
-				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836203/dog.mp3',
+				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836203/FCC-drum-machine%20app/dog%20sound.mp3',
 				id: 'e',
 				audioId: 'E',
 				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/dog.png',
 				alt: 'dog'
 			},
 			{
-				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/cat.mp3',
+				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/FCC-drum-machine%20app/cat%20sound.mp3',
 				id: 'a',
 				audioId: 'A',
 				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/cat.png',
 				alt: 'cat'
 			},
 			{
-				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534854346/horse.mp3',
+				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534854346/FCC-drum-machine%20app/horse%20sound.mp3',
 				id: 's',
 				audioId: 'S',
 				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/horse.png',
 				alt: 'horse'
 			},
 			{
-				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/goat.mp3',
+				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/FCC-drum-machine%20app/goat%20sound.mp3',
 				id: 'd',
 				audioId: 'D',
 				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/goat.png',
 				alt: 'goat'
 			},
 			{
-				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/sheep.mp3',
+				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/FCC-drum-machine%20app/sheep%20sound.mp3',
 				id: 'z',
 				audioId: 'Z',
 				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/sheep.png',
 				alt: 'sheep'
 			},
 			{
-				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/pig.mp3',
+				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/FCC-drum-machine%20app/pig%20sound.mp3',
 				id: 'x',
 				audioId: 'X',
 				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/pig.png',
 				alt: 'pig'
 			},
 			{
-				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/owl.mp3',
+				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/FCC-drum-machine%20app/owl%20sound.mp3',
 				id: 'c',
 				audioId: 'C',
 				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/owl.png',
