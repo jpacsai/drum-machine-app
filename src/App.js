@@ -43,63 +43,63 @@ class App extends Component {
 				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534835087/cow.mp3',
 				id: 'q',
 				audioId: 'Q',
-				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/cow.png',
+				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/cow.png',
 				alt: 'cow'
 			},
 			{
 				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/rooster.mp3',
 				id: 'w',
 				audioId: 'W',
-				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/rooster.png',
+				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/rooster.png',
 				alt: 'rooster'
 			},
 			{
 				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836203/dog.mp3',
 				id: 'e',
 				audioId: 'E',
-				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/dog.png',
+				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/dog.png',
 				alt: 'dog'
 			},
 			{
 				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/cat.mp3',
 				id: 'a',
 				audioId: 'A',
-				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/cat.png',
+				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/cat.png',
 				alt: 'cat'
 			},
 			{
 				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534854346/horse.mp3',
 				id: 's',
 				audioId: 'S',
-				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/horse.png',
+				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/horse.png',
 				alt: 'horse'
 			},
 			{
 				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/goat.mp3',
 				id: 'd',
 				audioId: 'D',
-				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/goat.png',
+				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/goat.png',
 				alt: 'goat'
 			},
 			{
 				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/sheep.mp3',
 				id: 'z',
 				audioId: 'Z',
-				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/sheep.png',
+				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/sheep.png',
 				alt: 'sheep'
 			},
 			{
 				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/pig.mp3',
 				id: 'x',
 				audioId: 'X',
-				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/pig.png',
+				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/pig.png',
 				alt: 'pig'
 			},
 			{
 				src: 'https://res.cloudinary.com/jutzee/video/upload/v1534836204/owl.mp3',
 				id: 'c',
 				audioId: 'C',
-				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/owl.png',
+				image: 'https://res.cloudinary.com/jutzee/image/upload/v1534864766/FCC-drum-machine%20app/owl.png',
 				alt: 'owl'
 			}];
 		
