@@ -15,7 +15,7 @@
     "merge": "^1.2.1",
     "mixin-deep": "^2.0.1",
     "react": "^16.6.0",
-    "react-dev-utils": "^9.0.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.6.0",
     "react-redux": "^5.1.0",
     "react-scripts": "1.1.4",
